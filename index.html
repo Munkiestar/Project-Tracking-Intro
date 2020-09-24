@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Project tracking intro component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
-  Features
-  Pricing
-  Login
+    <title>Frontend Mentor | Project tracking intro component</title>
 
-  New
-  Monograph Dashboard
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <img src="./images/logo.svg" alt="logo" />
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+        <ul>
+          <li><a href="#">product</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pricing</a></li>
+          <li class="middot">
+            <a href="#"><i class="fas fa-circle"></i></a>
+          </li>
+          <li class="special"><a href="#">login</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <main>
+      <div class="container">
+        <div class="left-side">
+          <h3><span> new</span> Monograph Dashboard</h3>
+          <h1>Powerful insights into your team</h1>
+          <p>
+            <span>Project planning and time tracking</span>
+            <span> for agile teamsfor agile teams </span>
+          </p>
+          <aside class="left-bottom">
+            <button>Schedule a demo</button>
+            <span class="span">to see a live preview</span>
+          </aside>
+        </div>
+
+        <div class="right-side">
+          <img src="./images/illustration-devices.svg" alt="devices" />
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
 </html>
